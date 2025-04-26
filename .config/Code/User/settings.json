@@ -1,0 +1,25 @@
+{
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "chat.promptFilesLocations": {
+    ".genaiscript/prompts": true
+  },
+  "editor.minimap.enabled": false,
+  "explorer.confirmDelete": false,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    ".venv/**": true
+  },
+  "genaiscript.diagnostics": true,
+  "genaiscript.languageChatModelsProvider": true,
+  "github.copilot.selectedCompletionModel": "",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "workbench.startupEditor": "none"
+}

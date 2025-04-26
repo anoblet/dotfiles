@@ -1,0 +1,15 @@
+*
+
+!.config
+!.config/Code
+!.config/Code/User
+!.config/Code/User/settings.json
+!.config/starship.toml
+!.gitconfig
+!.gitignore
+!.gitmodules
+!.zshrc
+
+!genaisrc
+!genaisrc/**/*
+

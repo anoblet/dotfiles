@@ -1,0 +1,5 @@
+[user]
+	name = Andrew Noblet
+	email = andrewbnoblet@gmail.com
+[sequence]
+	editor = code --wait --reuse-window
