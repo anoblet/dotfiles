@@ -1,0 +1,23 @@
+{
+  "name": "andrew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anoblet/dotfiles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anoblet/dotfiles/issues"
+  },
+  "homepage": "https://github.com/anoblet/dotfiles#readme",
+  "workspaces": [
+    "packages/wallpaper"
+  ]
+}

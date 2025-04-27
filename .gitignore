@@ -13,3 +13,8 @@
 !genaisrc
 !genaisrc/**/*
 
+!packages
+!packages/**/*
+
+!package.json
+!package-lock.json

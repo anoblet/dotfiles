@@ -1,0 +1,23 @@
+{
+  "name": "wallpaper",
+  "version": "1.0.0",
+  "description": "Script to set random wallpapers from wallpapers.json",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "bin": {
+    "set-wallpaper": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "wallpaper",
+    "background",
+    "gnome"
+  ],
+  "author": "",
+  "license": "MIT"
+}

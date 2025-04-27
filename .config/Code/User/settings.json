@@ -21,5 +21,10 @@
   "github.copilot.selectedCompletionModel": "",
   "terminal.integrated.fontFamily": "FiraCode Nerd Font",
   "terminal.integrated.fontLigatures.enabled": true,
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Panda Syntax",
+  "workbench.iconTheme": null,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
