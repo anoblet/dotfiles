@@ -17,7 +17,6 @@
     ".venv/**": true
   },
   "genaiscript.diagnostics": true,
-  "genaiscript.languageChatModelsProvider": true,
   "github.copilot.selectedCompletionModel": "",
   "terminal.integrated.fontFamily": "FiraCode Nerd Font",
   "terminal.integrated.fontLigatures.enabled": true,
@@ -25,6 +24,36 @@
   "workbench.colorTheme": "Panda Syntax",
   "workbench.iconTheme": null,
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "mcp": {
+    "servers": {
+      "memory": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-memory"]
+      },
+      "sequential-thinking": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+      },
+      "playwright": {
+        "command": "npx",
+        "args": ["@playwright/mcp@latest"]
+      }
+    }
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "genaiscript.cli.packageManager": "pnpm",
+  "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
